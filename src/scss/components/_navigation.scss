@@ -1,0 +1,19 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+}
+
+.navigation__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.navigation__link--active {
+  background: hotpink;
+}

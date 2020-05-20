@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #efefef;
+  color: var(--primary);
+}
+
+a {
+  color: var(--secondary);
+}
+
+button, input, textarea {
+  font-size: 1em;
+}
