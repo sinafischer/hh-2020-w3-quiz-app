@@ -1,0 +1,11 @@
+{
+  "name": "quiz-app",
+  "version": "0.0.1",
+  "description": "A simple quiz app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremias Erbs <jerry@badabam.de> (http://www.badabam.de/)",
+  "license": "UNLICENSED"
+}
