@@ -31,3 +31,23 @@
   border-radius: 0.5em;
   padding: 5px;
 }
+
+.input-field {
+  display: block;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  font-family: sans-serif;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
