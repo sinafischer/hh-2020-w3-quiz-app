@@ -10,3 +10,19 @@
   overflow: scroll;
   padding: 20px;
 }
+
+.card__bookmark {
+  display: inline-block;
+  font-size: 2em;
+  border: 1px solid;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 20%;
+  position: relative;
+  top: -30px;
+  left: 250px;
+}
+
+.card__bookmark--special {
+  color: var(--secondary);
+}
