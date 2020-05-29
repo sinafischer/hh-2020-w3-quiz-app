@@ -1,0 +1,13 @@
+.tag-list > li {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding: 3px;
+}
+
+.tag-list {
+  border-radius: 5px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}

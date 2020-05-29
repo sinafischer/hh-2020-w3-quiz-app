@@ -16,29 +16,6 @@
   gap: 20px;
 }
 
-.button {
-  display: block;
-  border: transparent;
-  background: var(--primary);
-  color: #efefef;
-  padding: 5px;
-  border-radius: 0.5em;
-}
-
-.tag-list > li {
-  display: inline-block;
-  border: 1px solid;
-  border-radius: 0.5em;
-  padding: 5px;
-}
-
-.input-field {
-  display: block;
-  border: 1px solid var(--primary);
-  color: var(--primary);
-  font-family: sans-serif;
-}
-
 .d-flex-row {
   display: flex;
   flex-direction: column;

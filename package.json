@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jeremias Erbs <jerry@badabam.de> (http://www.badabam.de/)",
+  "author": "Sina Fischer sina.h.fischer@gmail.com",
   "license": "UNLICENSED",
   "dependencies": {
     "parcel-bundler": "1.12.4"

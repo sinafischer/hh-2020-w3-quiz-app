@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,11 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body class="main-grid">
+  <body class="main-grid"></body>
     <header class="main-header">Create</header>
 
-    <main class="d-flex-row p-20">
-      <section class="txt-center">
+    <form class="gap-20 p-20 txt-center">
         <label for="question"
           >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci,
           cum.</label
@@ -24,25 +23,19 @@
           id="question"
           cols="30"
           rows="7"
-          class="input-field mx-auto mt-20"
+          class="input-field mx-auto"
         ></textarea>
-      </section>
 
-      <section class="txt-center mt-20">
-        <label for="answer"
-          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
-          est!</label
-        >
-        <textarea
-          name="answer"
-          id="answer"
-          cols="30"
-          rows="7"
-          class="input-field mx-auto mt-20"
-        ></textarea>
-      </section>
-
-      <section class="txt-center mt-20">
+        <label>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+          est!
+          <textarea
+            name="answer"
+            cols="30"
+            rows="7"
+            class="input-field mx-auto"
+          ></textarea>
+        </label>
         <label for="tags"
           >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
           adipisci.</label
@@ -52,11 +45,10 @@
           name="tags"
           id="tags"
           size="30"
-          class="input-field mx-auto mt-20"
+          class="input-field mx-auto"
         />
-      </section>
-      <button class="button mx-auto mt-20">Submit</button>
-    </main>
+      <button class="button mx-auto">Submit</button>
+    </form>
 
     <nav class="navigation">
       <a class="navigation__link" href="/"
